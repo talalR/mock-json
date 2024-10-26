@@ -37,6 +37,6 @@
     {
         "path": "/home",
         "icon": "FaSignOutAlt",
-        "label": "Logout"
+        "label": "home"
     }
 ]
