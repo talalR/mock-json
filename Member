@@ -1,0 +1,13 @@
+{
+  "user": {
+    "name": "Talal K",
+    "email": "talalk@example.com",
+    "joinDate": "2023-01-15"
+  },
+  "settings": {
+    "email": "talalk@example.com",
+    "password": "", 
+    "notifications": true,
+    "theme": "light"
+  }
+}
