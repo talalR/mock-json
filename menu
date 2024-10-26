@@ -35,7 +35,7 @@
         "label": "Add Quiz"
     },
     {
-        "path": "/logout",
+        "path": "/home",
         "icon": "FaSignOutAlt",
         "label": "Logout"
     }
