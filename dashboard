@@ -1,20 +1,121 @@
 {
   "courses": [
-    { "id": 1, "name": "Introduction to React", "progress": 70 },
-    { "id": 2, "name": "Advanced JavaScript", "progress": 45 },
-    { "id": 3, "name": "Data Structures and Algorithms", "progress": 85 },
-    { "id": 4, "name": "Web Development Bootcamp", "progress": 30 },
-    { "id": 5, "name": "UI/UX Design Fundamentals", "progress": 50 }
+    { 
+      "id": 1, 
+      "name": "Introduction to React", 
+      "progress": 70, 
+      "instructor": "John Doe", 
+      "startDate": "2024-01-15", 
+      "endDate": "2024-02-15", 
+      "category": "Frontend Development" 
+    },
+    { 
+      "id": 2, 
+      "name": "Advanced JavaScript", 
+      "progress": 45, 
+      "instructor": "Jane Smith", 
+      "startDate": "2024-03-01", 
+      "endDate": "2024-04-01", 
+      "category": "Programming Languages" 
+    },
+    { 
+      "id": 3, 
+      "name": "Data Structures and Algorithms", 
+      "progress": 85, 
+      "instructor": "Dr. Alan Turing", 
+      "startDate": "2024-05-10", 
+      "endDate": "2024-06-20", 
+      "category": "Computer Science" 
+    },
+    { 
+      "id": 4, 
+      "name": "Web Development Bootcamp", 
+      "progress": 30, 
+      "instructor": "Emily Webb", 
+      "startDate": "2024-07-01", 
+      "endDate": "2024-09-30", 
+      "category": "Full Stack Development" 
+    },
+    { 
+      "id": 5, 
+      "name": "UI/UX Design Fundamentals", 
+      "progress": 50, 
+      "instructor": "Rachel Adams", 
+      "startDate": "2024-04-15", 
+      "endDate": "2024-05-15", 
+      "category": "Design" 
+    }
   ],
   "quizzes": [
-    { "id": 1, "title": "JavaScript Basics", "questions": 10, "completed": 5 },
-    { "id": 2, "title": "React Fundamentals", "questions": 15, "completed": 7 },
-    { "id": 3, "title": "CSS Grid and Flexbox", "questions": 8, "completed": 8 },
-    { "id": 4, "title": "HTML & Web Accessibility", "questions": 12, "completed": 4 }
+    { 
+      "id": 1, 
+      "title": "JavaScript Basics", 
+      "questions": 10, 
+      "completed": 5, 
+      "passRate": 80, 
+      "timeLimit": "30 minutes" 
+    },
+    { 
+      "id": 2, 
+      "title": "React Fundamentals", 
+      "questions": 15, 
+      "completed": 7, 
+      "passRate": 75, 
+      "timeLimit": "45 minutes" 
+    },
+    { 
+      "id": 3, 
+      "title": "CSS Grid and Flexbox", 
+      "questions": 8, 
+      "completed": 8, 
+      "passRate": 85, 
+      "timeLimit": "20 minutes" 
+    },
+    { 
+      "id": 4, 
+      "title": "HTML & Web Accessibility", 
+      "questions": 12, 
+      "completed": 4, 
+      "passRate": 90, 
+      "timeLimit": "25 minutes" 
+    }
   ],
   "reports": [
-    { "id": 1, "title": "Monthly Performance", "date": "2024-09-30" },
-    { "id": 2, "title": "Annual Review", "date": "2024-12-31" },
-    { "id": 3, "title": "Course Completion Rates", "date": "2024-08-15" }
+    { 
+      "id": 1, 
+      "title": "Monthly Performance", 
+      "date": "2024-09-30", 
+      "type": "Monthly Overview", 
+      "status": "Published", 
+      "description": "Detailed monthly performance metrics covering all active courses and quizzes." 
+    },
+    { 
+      "id": 2, 
+      "title": "Annual Review", 
+      "date": "2024-12-31", 
+      "type": "Yearly Summary", 
+      "status": "Draft", 
+      "description": "An annual review covering the learner's progress, course completions, and key achievements." 
+    },
+    { 
+      "id": 3, 
+      "title": "Course Completion Rates", 
+      "date": "2024-08-15", 
+      "type": "Analytics", 
+      "status": "Published", 
+      "description": "Report on completion rates for all courses, including dropout and engagement rates." 
+    }
+  ],
+  "performanceData": [
+    { "month": "January", "progress": 15 },
+    { "month": "February", "progress": 20 },
+    { "month": "March", "progress": 25 },
+    { "month": "April", "progress": 35 },
+    { "month": "May", "progress": 40 },
+    { "month": "June", "progress": 55 },
+    { "month": "July", "progress": 65 },
+    { "month": "August", "progress": 70 },
+    { "month": "September", "progress": 85 },
+    { "month": "October", "progress": 90 }
   ]
 }
