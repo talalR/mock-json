@@ -1,0 +1,42 @@
+[
+    {
+        "path": "/dashboard",
+        "icon": "FaTachometerAlt",
+        "label": "Dashboard"
+    },
+    {
+        "path": "/profile",
+        "icon": "FaUser",
+        "label": "Profile"
+    },
+    {
+        "path": "/courses",
+        "icon": "FaBook",
+        "label": "Courses"
+    },
+    {
+        "path": "/quizzes",
+        "icon": "FaQuestionCircle",
+        "label": "Quizzes"
+    },
+    {
+        "path": "/reports",
+        "icon": "FaChartBar",
+        "label": "Reports"
+    },
+    {
+        "path": "/add-course",
+        "icon": "FaPlus",
+        "label": "Add Course"
+    },
+    {
+        "path": "/add-quiz",
+        "icon": "FaPlus",
+        "label": "Add Quiz"
+    },
+    {
+        "path": "/logout",
+        "icon": "FaSignOutAlt",
+        "label": "Logout"
+    }
+]
